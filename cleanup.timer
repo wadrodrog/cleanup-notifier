@@ -1,0 +1,11 @@
+[Unit]
+Description=Cleanup Notifier timer
+Documentation=https://github.com/wadrodrog/cleanup-notifier/blob/main/README.md
+
+[Timer]
+OnActiveSec=1min
+OnUnitActiveSec=1h
+RandomizedDelaySec=1h
+
+[Install]
+WantedBy=timers.target

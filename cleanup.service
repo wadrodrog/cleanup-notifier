@@ -1,0 +1,6 @@
+[Unit]
+Description=Run Cleanup Notifier script
+Documentation=https://github.com/wadrodrog/cleanup-notifier/blob/main/README.md
+
+[Service]
+ExecStart=/path/to/script/cleanup-notifier.sh /example/dir 20 /another/example/ 5
